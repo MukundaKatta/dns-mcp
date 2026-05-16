@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/dns",
+  "description": "MCP server: resolve A / AAAA / MX / TXT / CNAME / NS records for a hostname.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/dns-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/dns-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/dns-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
